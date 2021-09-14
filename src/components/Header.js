@@ -1,7 +1,7 @@
 export default function Header() {
   return (
     <div className="bg-brand-color">
-      <div className="flex  flex-row max-w-screen-xl mx-auto justify-between h-20 items-center">
+      <div className="flex  flex-row w-[1130px] mx-auto justify-between h-20 items-center">
         <div className="cursor-pointer">
           <a
             href="http://getir-clone-delta.vercel.app/"
@@ -15,8 +15,8 @@ export default function Header() {
             />
           </a>
         </div>
-        <div className="flex  text-white divide-x-2 gap-x-6">
-          <div className="flex gap-x-6">
+        <div className="flex  text-white divide-x-2 gap-x-10 ">
+          <div className="flex gap-x-10">
             <a
               href="http://getir-clone-delta.vercel.app/"
               target="_blank"
@@ -46,7 +46,7 @@ export default function Header() {
             </a>
           </div>
 
-          <div className="flex pl-6 gap-x-6 ">
+          <div className="flex pl-6 gap-x-10">
             <a
               href="http://getir-clone-delta.vercel.app/"
               target="_blank"

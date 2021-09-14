@@ -8,16 +8,16 @@ module.exports = {
         "brand-yellow": "#FFFF00",
         "brand-color": "#000000",
         "brand-gray": "#697488",
-        "gray-background": "#fafafa",
+        "blue-background": "#2941ab",
         "primary-brand-color-lights": "#f3f0fe",
         "primary-brand-color": "#5d3ebc",
         "primary-white": "#FFFFFF",
         "primary-green": "#1ed760",
-        "secondary-brand-color": "#7849f7",
+        "secondary-brand-color": "#ffcdd2",
       },
       backgroundImage: (theme) => ({
-        "mobile-app":
-          "url('https://getir.com/_next/static/images/doodle-d659f9f1fd505c811c2331fe3ffddd5f.png')",
+        "free-bg":
+          "url('https://content-tooling.spotifycdn.com/images/b236bf87-bfd5-4bcb-b51a-77881073039c_lie_circles.svg')",
       }),
     },
   },
