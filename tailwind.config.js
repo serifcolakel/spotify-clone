@@ -7,9 +7,9 @@ module.exports = {
       colors: {
         "brand-yellow": "#FFFF00",
         "brand-color": "#000000",
-        "brand-gray": "#697488",
+        "brand-gray": "#222326",
         "blue-background": "#2941ab",
-        "primary-brand-color-lights": "#f3f0fe",
+        "def-text-color": "#919496",
         "primary-brand-color": "#5d3ebc",
         "primary-white": "#FFFFFF",
         "primary-green": "#1ed760",

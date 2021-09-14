@@ -613,18 +613,6 @@ html, body{
   -moz-osx-font-smoothing: grayscale
 }
 
-.static {
-  position: static;
-}
-
-.relative {
-  position: relative;
-}
-
-.top-0 {
-  top: 0px;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -650,16 +638,36 @@ html, body{
   height: 600px;
 }
 
-.h-20 {
-  height: 5rem;
+.h-\[530px\] {
+  height: 530px;
 }
 
 .h-10 {
   height: 2.5rem;
 }
 
-.w-\[1170px\] {
-  width: 1170px;
+.h-\[54px\] {
+  height: 54px;
+}
+
+.h-6 {
+  height: 1.5rem;
+}
+
+.h-20 {
+  height: 5rem;
+}
+
+.h-\[15px\] {
+  height: 15px;
+}
+
+.h-\[130px\] {
+  height: 130px;
+}
+
+.w-\[1130px\] {
+  width: 1130px;
 }
 
 .w-\[300px\] {
@@ -674,16 +682,12 @@ html, body{
   width: 100%;
 }
 
-.w-\[1100px\] {
-  width: 1100px;
+.w-\[54px\] {
+  width: 54px;
 }
 
-.w-\[1120px\] {
-  width: 1120px;
-}
-
-.w-\[1130px\] {
-  width: 1130px;
+.w-6 {
+  width: 1.5rem;
 }
 
 .cursor-pointer {
@@ -702,6 +706,10 @@ html, body{
   align-items: center;
 }
 
+.justify-end {
+  justify-content: flex-end;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -710,16 +718,22 @@ html, body{
   justify-content: space-between;
 }
 
-.justify-around {
-  justify-content: space-around;
-}
-
-.justify-evenly {
-  justify-content: space-evenly;
-}
-
 .gap-y-8 {
   row-gap: 2rem;
+}
+
+.gap-y-6 {
+  row-gap: 1.5rem;
+}
+
+.gap-x-6 {
+  -webkit-column-gap: 1.5rem;
+          column-gap: 1.5rem;
+}
+
+.gap-x-4 {
+  -webkit-column-gap: 1rem;
+          column-gap: 1rem;
 }
 
 .gap-x-10 {
@@ -727,8 +741,14 @@ html, body{
           column-gap: 2.5rem;
 }
 
-.gap-y-6 {
-  row-gap: 1.5rem;
+.gap-x-8 {
+  -webkit-column-gap: 2rem;
+          column-gap: 2rem;
+}
+
+.gap-x-2 {
+  -webkit-column-gap: 0.5rem;
+          column-gap: 0.5rem;
 }
 
 .gap-y-2 {
@@ -743,6 +763,10 @@ html, body{
 
 .rounded-3xl {
   border-radius: 1.5rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
 }
 
 .bg-secondary-brand-color {
@@ -765,6 +789,16 @@ html, body{
   background-color: rgba(30, 215, 96, var(--tw-bg-opacity));
 }
 
+.bg-brand-gray {
+  --tw-bg-opacity: 1;
+  background-color: rgba(34, 35, 38, var(--tw-bg-opacity));
+}
+
+.bg-primary-white {
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+}
+
 .bg-free-bg {
   background-image: url('https://content-tooling.spotifycdn.com/images/b236bf87-bfd5-4bcb-b51a-77881073039c_lie_circles.svg');
 }
@@ -781,10 +815,6 @@ html, body{
   fill: currentColor;
 }
 
-.object-fill {
-  object-fit: fill;
-}
-
 .pb-6 {
   padding-bottom: 1.5rem;
 }
@@ -793,28 +823,32 @@ html, body{
   padding-top: 1.5rem;
 }
 
-.pl-6 {
-  padding-left: 1.5rem;
-}
-
-.pt-0 {
-  padding-top: 0px;
-}
-
-.pb-52 {
-  padding-bottom: 13rem;
-}
-
-.pb-48 {
-  padding-bottom: 12rem;
-}
-
 .pb-36 {
   padding-bottom: 9rem;
 }
 
-.pt-12 {
-  padding-top: 3rem;
+.pt-20 {
+  padding-top: 5rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
+}
+
+.pr-8 {
+  padding-right: 2rem;
+}
+
+.pl-16 {
+  padding-left: 4rem;
+}
+
+.pl-6 {
+  padding-left: 1.5rem;
+}
+
+.pb-8 {
+  padding-bottom: 2rem;
 }
 
 .font-sans {
@@ -836,18 +870,18 @@ html, body{
   line-height: 2rem;
 }
 
+.text-\[60px\] {
+  font-size: 60px;
+}
+
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
-.text-\[60px\] {
-  font-size: 60px;
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-semibold {
@@ -862,8 +896,12 @@ html, body{
   font-weight: 400;
 }
 
-.font-extrabold {
-  font-weight: 800;
+.font-black {
+  font-weight: 900;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
 
 .tracking-widest {
@@ -879,9 +917,9 @@ html, body{
   color: rgba(255, 255, 255, var(--tw-text-opacity));
 }
 
-.text-blue-500 {
+.text-primary-green {
   --tw-text-opacity: 1;
-  color: rgba(59, 130, 246, var(--tw-text-opacity));
+  color: rgba(30, 215, 96, var(--tw-text-opacity));
 }
 
 .text-blue-background {
@@ -889,9 +927,9 @@ html, body{
   color: rgba(41, 65, 171, var(--tw-text-opacity));
 }
 
-.text-primary-green {
+.text-def-text-color {
   --tw-text-opacity: 1;
-  color: rgba(30, 215, 96, var(--tw-text-opacity));
+  color: rgba(145, 148, 150, var(--tw-text-opacity));
 }
 
 .hover\:scale-105:hover {
@@ -899,6 +937,11 @@ html, body{
   --tw-scale-y: 1.05;
   -webkit-transform: var(--tw-transform);
           transform: var(--tw-transform);
+}
+
+.hover\:bg-primary-green:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(30, 215, 96, var(--tw-bg-opacity));
 }
 
 .hover\:text-primary-green:hover {
