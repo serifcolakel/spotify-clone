@@ -18,6 +18,8 @@ module.exports = {
       backgroundImage: (theme) => ({
         "free-bg":
           "url('https://content-tooling.spotifycdn.com/images/b236bf87-bfd5-4bcb-b51a-77881073039c_lie_circles.svg')",
+        "mobile-bg":
+          "url('https://content-tooling.spotifycdn.com/images/af63e367-ad10-4063-a8e2-5a50ae2a4b28_lie_circles-mobile.svg')",
       }),
     },
   },

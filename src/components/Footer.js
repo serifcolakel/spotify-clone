@@ -144,9 +144,9 @@ const socialLinks = [
 ];
 export default function Footer() {
   return (
-    <div className="bg-brand-color">
-      <div className="flex  justify-between w-[1130px] mx-auto pt-20 h-[400px] gap-x-6 text-white ">
-        <div className="flex flex-row">
+    <div className="bg-brand-color p-4">
+      <div className="flex  md:flex-row flex-col md:justify-between md:w-[1130px] mx-auto md:pt-20 md:h-[400px] md:gap-x-6 gap-y-8 text-white ">
+        <div className="flex flex-col md:flex-row gap-y-8 pt-4">
           <div>
             <a
               href="http://getir-clone-delta.vercel.app/"
@@ -154,7 +154,7 @@ export default function Footer() {
               rel="noreferrer"
             >
               <img
-                className="w-full h-10"
+                className="h-7 w-22 md:w-full md:h-10"
                 alt="noReferer"
                 src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_White.png"
               />
@@ -162,15 +162,18 @@ export default function Footer() {
           </div>
 
           {topLinks.map((x, i) => (
-            <div className="flex flex-col pt-4 pr-8 pl-16 gap-y-6 " key={i}>
+            <div
+              className="flex flex-col  justify-start md:flex-col md:pt-4 md:pr-8 md:pl-16 gap-y-4 "
+              key={i}
+            >
               <span className="font-black text-sm uppercase text-def-text-color">
                 {x.title}
               </span>
 
-              <div className="flex flex-col gap-y-6 ">
+              <div className="flex flex-col gap-y-2 ">
                 {x.links.map((r, j) => (
                   <a href={r.href} key={j} rel="noreferrer" target="_blank">
-                    <p className="text-sm	font-normal	hover:text-primary-green">
+                    <p className="text-xs md:text-sm	font-normal	hover:text-primary-green">
                       {r.title}
                     </p>
                   </a>
@@ -179,16 +182,16 @@ export default function Footer() {
             </div>
           ))}
         </div>
-        <div className="flex flex-row gap-x-4 ">
+        <div className="flex flex-row gap-x-4 pt-8 ">
           {socialLinks.map((x, i) => (
             <div
               key={i}
-              className="flex justify-center items-center w-[54px] h-[54px] rounded-full bg-brand-gray"
+              className="flex justify-center items-center w-6 h-6 md:w-[54px] md:h-[54px] rounded-full bg-brand-gray "
             >
               <a href={x.href} target="_blank" rel="noreferrer">
                 <img
                   alt="noreferrer"
-                  className="w-6 h-6 bg-primary-white hover:bg-primary-green"
+                  className="w-4 h-4 bg-primary-white hover:bg-primary-green"
                   src={x.srcIcon}
                 />
               </a>
@@ -196,25 +199,25 @@ export default function Footer() {
           ))}
         </div>
       </div>
-      <div className="flex flex-col w-[1130px] mx-auto h-[130px] gap-y- pb-8 text-def-text-color ">
+      <div className="flex flex-col w-auto md:w-[1130px] mx-auto md:h-[130px]  text-def-text-color">
         <div className="flex flex-row justify-end items-center gap-x-2 ">
           <RiGlobalLine />
           <a href="https://www.spotify.com/tr/select-your-country-region/">
             <span className="text-xs  hover:text-primary-green">Türkiye</span>
           </a>
         </div>
-        <div className="flex flex-row justify-between items-center">
-          <div className="flex gap-x-8">
+        <div className="flex  md:flex-row  justify-between items-center">
+          <div className="flex gap-x-1 md:gap-x-8 md:flex-row flex-col">
             {bottomLinks.map((x, i) => (
               <a href={x.href} key={i}>
-                <span className="text-xs  hover:text-primary-green">
+                <span className="text-[10px] md:text-xs  hover:text-primary-green">
                   {x.title}
                 </span>
               </a>
             ))}
           </div>
 
-          <span className="text-xs">© 2021 Spotify AB</span>
+          <span className="text-[10px] md:text-xs">© 2021 Spotify AB</span>
         </div>
       </div>
     </div>
