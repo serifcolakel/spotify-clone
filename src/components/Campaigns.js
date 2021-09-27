@@ -22,8 +22,8 @@ export default function Campaigns() {
               target="_blank"
               rel="noreferrer"
             >
-              <button className="bg-brand-color h-12 w-[300px] rounded-3xl hover:scale-105 items-center flex justify-center text-white ">
-                <span className="font-semibold">3 AY UCRETSİZ KULLAN</span>
+              <button className="bg-brand-color w-full h-12 md:w-[300px] rounded-3xl hover:scale-105 items-center flex justify-center text-white ">
+                <span className="font-semibold ">3 AY UCRETSİZ KULLAN</span>
               </button>
             </a>
           </div>

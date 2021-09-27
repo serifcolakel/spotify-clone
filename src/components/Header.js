@@ -10,7 +10,7 @@ export default function Header() {
     <>
       {show ? <ResponsiveMenu openMenu={setShow} /> : null}
       <div className="bg-brand-color">
-        <div className="flex  flex-row md:w-[1130px] w-full mx-auto justify-between h-13 md:pl-4 md:h-20 items-center">
+        <div className="flex  flex-row md:w-[1130px] w-full mx-auto justify-between h-13 pl-4 md:h-20 items-center">
           <div className=" cursor-pointer">
             <a
               href="http://getir-clone-delta.vercel.app/"
