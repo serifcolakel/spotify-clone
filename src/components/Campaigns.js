@@ -2,21 +2,19 @@ export default function Campaigns() {
   return (
     <>
       <div className="bg-secondary-brand-color ">
-        <div className="flex flex-col md:h-[550px] h-[880px] md:flex-row md:w-[1130px] mx-auto md:justify-between  items-center p-4">
+        <div className="flex flex-col md:h-[550px] h-[880px] md:flex-row md:w-[1130px] mx-auto md:justify-between items-center p-4">
           <div className="flex flex-col md:w-3/5 md:gap-y-8 gap-y-2 md:items-start pt-10 pb-10">
-            <div className="text-[10px] uppercase text-center font-semibold md:text-xs	">
+            <div className="text-[10px] uppercase text-center font-semibold md:text-base tracking-widest		">
               <p>SPOTIFY PREMIUM</p>
             </div>
             <h1 className="md:text-5xl text-2xl font-black font-sans tracking-wide">
               Yakında sona eriyor: Premium 3 ay boyunca ücretsiz
             </h1>
             <h2 className="font-normal	md:text-xl text-sm pb-6 pt-2">
-              Reklamsız ve çevrimdışı müziği 29 Aralık 2021 tarihine kadar
-              <br className="hidden" /> ücretsiz dinle.
-              <br />
-              İstediğin zaman iptal et.
+              Reklamsız müzik dinleme, çevrimdışı çalma ve diğer avantajları
+              kaçırma. İstediğin zaman iptal et.
             </h2>
-            <div className="flex md:flex-row md:gap-x-4 flex-col gap-y-4 ">
+            <div className="flex md:flex-row md:gap-x-4 flex-col font-bold gap-y-4 ">
               <a
                 href="https://www.spotify.com/tr/premium/"
                 target="_blank"
@@ -38,10 +36,10 @@ export default function Campaigns() {
         </div>
       </div>
 
-      <div className="bg-blue-background md:bg-free-bg bg-mobile-bg bg-right md:bg-no-repeat  p-6 md:p-0">
+      <div className="bg-blue-background md:bg-free-bg bg-mobile-bg md:bg-no-repeat md:bg-right bg-center 	p-6 md:p-0">
         <div className="flex md:h-[600px] md:w-[1130px] h-[480px] mx-auto items-center ">
-          <div className="flex flex-col md:pb-36 md:gap-y-6 justify-center items-center">
-            <span className="text-xs tracking-widest font-normal pb-16 text-primary-green ">
+          <div className="flex flex-col md:pb-8 md:gap-y-8 justify-center md:justify-start md:items-start items-center">
+            <span className="text-xs tracking-widest font-normal text-primary-green ">
               SPOTİFY FREE
             </span>
 
@@ -49,8 +47,10 @@ export default function Campaigns() {
               Dinlemek her şeydir
             </h1>
 
-            <h2 className="font-normal text-xl	md:text-2xl pt-6 pb-6 text-primary-green">
-              Milyonlarca şarkı ve podcast. Kredi kartına gerek yok.
+            <h2 className="font-normal text-xl text-center md:text-left	md:text-2xl pt-6 pb-6 text-primary-green">
+              Milyonlarca şarkı ve podcast. Kredi kartına gerek
+              <br className="hidden md:block" />
+              yok.
             </h2>
             <a
               href="https://www.spotify.com/tr/premium/"

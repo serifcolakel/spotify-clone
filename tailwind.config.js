@@ -7,13 +7,14 @@ module.exports = {
       colors: {
         "brand-yellow": "#FFFF00",
         "brand-color": "#000000",
-        "brand-gray": "#222326",
+        "brand-gray": "#efefef",
         "blue-background": "#2941ab",
         "def-text-color": "#919496",
         "primary-brand-color": "#5d3ebc",
         "primary-white": "#FFFFFF",
         "primary-green": "#1ed760",
         "secondary-brand-color": "#9bfde1",
+        "button-brand-color": "#B4FEE9",
       },
       backgroundImage: (theme) => ({
         "free-bg":
