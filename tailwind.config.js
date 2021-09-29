@@ -13,7 +13,7 @@ module.exports = {
         "primary-brand-color": "#5d3ebc",
         "primary-white": "#FFFFFF",
         "primary-green": "#1ed760",
-        "secondary-brand-color": "#ffcdd2",
+        "secondary-brand-color": "#9bfde1",
       },
       backgroundImage: (theme) => ({
         "free-bg":

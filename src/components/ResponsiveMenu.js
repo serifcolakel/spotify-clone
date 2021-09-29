@@ -3,7 +3,7 @@ import { BsDash } from "react-icons/bs";
 export default function ResponsiveMenu(props) {
   console.log(props);
   return (
-    <div className="fixed inset-0 overflow-y-auto bg-black">
+    <div className="fixed inset-0 overflow-y-auto bg-black p-4">
       <div className=" h-[94vh] gap-y-2 text-white">
         <div className="flex h-full flex-col justify-between">
           <div>

@@ -12,11 +12,7 @@ export default function Header() {
       <div className="bg-brand-color">
         <div className="flex  flex-row md:w-[1130px] w-full mx-auto justify-between h-13 pl-4 md:h-20 items-center">
           <div className=" cursor-pointer">
-            <a
-              href="http://getir-clone-delta.vercel.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="/" rel="noreferrer">
               <img
                 className="md:w-full w-[89px] md:h-10 md:fill-current text-white-600"
                 alt="noReferer"
@@ -36,29 +32,17 @@ export default function Header() {
             </div>
             <div className="md:flex text-white gap-x-10 divide-x-2">
               <div className="hidden items-center justify-center md:flex md:pl-6 md:gap-x-10">
-                <a
-                  href="http://getir-clone-delta.vercel.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href="/premium" rel="noreferrer">
                   <span className="hover:text-primary-green font-bold text-base	">
                     Premium
                   </span>
                 </a>
-                <a
-                  href="http://getir-clone-delta.vercel.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href="/destek" rel="noreferrer">
                   <span className="hover:text-primary-green font-bold text-base	">
                     Destek
                   </span>
                 </a>
-                <a
-                  href="http://getir-clone-delta.vercel.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href="/indir" rel="noreferrer">
                   <span className="hover:text-primary-green font-bold text-base	">
                     İndir
                   </span>
